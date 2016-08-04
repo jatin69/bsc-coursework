@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1457531252 source:d:\4th sem\networking\s&w - noiseless\main.cpp
+	<iostream>
+	<cstring>
+	<stdlib.h>
+	<time.h>
+	"protocol.h"
+
+1457530900 d:\4th sem\networking\s&w - noiseless\protocol.h
+
