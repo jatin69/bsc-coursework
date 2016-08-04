@@ -1,0 +1,43 @@
+# depslib dependency file v1.0
+1457591855 source:e:\folders\surbhi\bsc hons cs\semester 4\operating systems\practicals\multiplepartitionmethod\main.cpp
+	<iostream>
+	"Partition.h"
+	"Process.h"
+
+1457592345 e:\folders\surbhi\bsc hons cs\semester 4\operating systems\practicals\multiplepartitionmethod\include\partition.h
+
+1457587260 source:e:\folders\surbhi\bsc hons cs\semester 4\operating systems\practicals\multiplepartitionmethod\src\partition.cpp
+	"Partition.h"
+	<iostream>
+
+1457588460 source:e:\folders\surbhi\bsc hons cs\semester 4\operating systems\practicals\multiplepartitionmethod\strategies.cpp
+	"Partition.h"
+	"Process.h"
+
+1457590308 source:e:\folders\surbhi\bsc hons cs\semester 4\operating systems\practicals\multiplepartitionmethod\src\process.cpp
+	"Process.h"
+	<iostream>
+
+1457590286 e:\folders\surbhi\bsc hons cs\semester 4\operating systems\practicals\multiplepartitionmethod\include\process.h
+
+1457592382 source:d:\4th sem\os\multiplepartitionmethod\main.cpp
+	<iostream>
+	"Partition.h"
+	"Process.h"
+
+1457592346 d:\4th sem\os\multiplepartitionmethod\include\partition.h
+
+1457590288 d:\4th sem\os\multiplepartitionmethod\include\process.h
+
+1457592370 source:d:\4th sem\os\multiplepartitionmethod\src\partition.cpp
+	"Partition.h"
+	<iostream>
+
+1457590310 source:d:\4th sem\os\multiplepartitionmethod\src\process.cpp
+	"Process.h"
+	<iostream>
+
+1457588462 source:d:\4th sem\os\multiplepartitionmethod\strategies.cpp
+	"Partition.h"
+	"Process.h"
+
