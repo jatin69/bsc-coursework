@@ -1,0 +1,41 @@
+# depslib dependency file v1.0
+1453829106 source:d:\4th sem\o.s. lab\cpuscheduling\main.cpp
+	<iostream>
+	"process.h"
+	"Queue_SLL.h"
+
+1453812250 d:\4th sem\o.s. lab\cpuscheduling\process.h
+
+1453915831 source:d:\4th sem\o.s. lab\cpuscheduling\schedule.cpp
+	<iostream>
+	<stdlib.h>
+	"process.h"
+	"Queue_SLL.h"
+
+1453816011 d:\4th sem\o.s. lab\cpuscheduling\include\queue_sll.h
+	"../process.h"
+
+1453829032 source:d:\4th sem\o.s. lab\cpuscheduling\src\queue_sll.cpp
+	<iostream>
+	"Queue_SLL.h"
+
+1453829106 source:d:\4th sem\os\q6- cpuscheduling\main.cpp
+	<iostream>
+	"process.h"
+	"Queue_SLL.h"
+
+1453812250 d:\4th sem\os\q6- cpuscheduling\process.h
+
+1453816011 d:\4th sem\os\q6- cpuscheduling\include\queue_sll.h
+	"../process.h"
+
+1462103414 source:d:\4th sem\os\q6- cpuscheduling\schedule.cpp
+	<iostream>
+	<stdlib.h>
+	"process.h"
+	"Queue_SLL.h"
+
+1453829032 source:d:\4th sem\os\q6- cpuscheduling\src\queue_sll.cpp
+	<iostream>
+	"Queue_SLL.h"
+
