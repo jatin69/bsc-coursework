@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1423563298 source:d:\2nd sem\projects\doublyqueue\main.cpp
+	<iostream>
+	"cstdlib"
+	"DoublyQueue.h"
+
+1423560069 d:\2nd sem\projects\doublyqueue\include\doublyqueue.h
+
+1423562906 source:d:\2nd sem\projects\doublyqueue\src\doublyqueue.cpp
+	"iostream"
+	"DoublyQueue.h"
+
+1423563298 source:d:\2nd sem\projects\2. queue\doublyqueue\main.cpp
+	<iostream>
+	"cstdlib"
+	"DoublyQueue.h"
+
+1423560069 d:\2nd sem\projects\2. queue\doublyqueue\include\doublyqueue.h
+

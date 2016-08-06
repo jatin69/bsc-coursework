@@ -1,0 +1,79 @@
+# depslib dependency file v1.0
+1428724558 source:d:\2nd sem\projects\circular_priorityqueue\main.cpp
+	<iostream>
+	"cstdlib"
+	"CircularPriority.h"
+	"MyException.h"
+
+1428722619 source:d:\2nd sem\projects\circular_priorityqueue\src\myexception.cpp
+	<iostream>
+	<cstring>
+	"MyException.h"
+
+1428722614 d:\2nd sem\projects\circular_priorityqueue\include\myexception.h
+
+1428723555 source:d:\2nd sem\projects\circular_priorityqueue\src\queue.cpp
+	"iostream"
+	"MyException.h"
+	"Queue.h"
+
+1428722626 d:\2nd sem\projects\circular_priorityqueue\include\queue.h
+
+1428724411 source:d:\2nd sem\projects\circular_priorityqueue\src\circularpriority.cpp
+	"CircularPriority.h"
+	"MyException.h"
+	"iostream"
+
+1428722770 d:\2nd sem\projects\circular_priorityqueue\include\circularpriority.h
+	<Queue.h>
+
+1428732847 source:d:\2nd sem\projects\2. queue\5. circular_priorityqueue\src\circularpriority.cpp
+	"CircularPriority.h"
+	"MyException.h"
+	"iostream"
+
+1428722770 d:\2nd sem\projects\2. queue\5. circular_priorityqueue\include\circularpriority.h
+	<Queue.h>
+
+1428722626 d:\2nd sem\projects\2. queue\5. circular_priorityqueue\include\queue.h
+
+1428722614 d:\2nd sem\projects\2. queue\5. circular_priorityqueue\include\myexception.h
+
+1428722619 source:d:\2nd sem\projects\2. queue\5. circular_priorityqueue\src\myexception.cpp
+	<iostream>
+	<cstring>
+	"MyException.h"
+
+1428723555 source:d:\2nd sem\projects\2. queue\5. circular_priorityqueue\src\queue.cpp
+	"iostream"
+	"MyException.h"
+	"Queue.h"
+
+1428732354 source:d:\2nd sem\projects\2. queue\5. circular_priorityqueue\main.cpp
+	<iostream>
+	"cstdlib"
+	"CircularPriority.h"
+	"MyException.h"
+
+1428734712 source:d:\2nd sem\projects\3. queue\5. circular_priorityqueue\src\circularpriority.cpp
+	"CircularPriority.h"
+	"MyException.h"
+	"iostream"
+
+1428722770 d:\2nd sem\projects\3. queue\5. circular_priorityqueue\include\circularpriority.h
+	<Queue.h>
+
+1428722626 d:\2nd sem\projects\3. queue\5. circular_priorityqueue\include\queue.h
+
+1428722614 d:\2nd sem\projects\3. queue\5. circular_priorityqueue\include\myexception.h
+
+1428722619 source:d:\2nd sem\projects\3. queue\5. circular_priorityqueue\src\myexception.cpp
+	<iostream>
+	<cstring>
+	"MyException.h"
+
+1428723555 source:d:\2nd sem\projects\3. queue\5. circular_priorityqueue\src\queue.cpp
+	"iostream"
+	"MyException.h"
+	"Queue.h"
+
