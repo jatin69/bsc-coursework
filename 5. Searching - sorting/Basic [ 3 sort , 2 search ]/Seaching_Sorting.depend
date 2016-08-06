@@ -1,0 +1,40 @@
+# depslib dependency file v1.0
+1429168669 source:d:\2nd sem\projects\seaching_sorting\main.cpp
+	<iostream>
+	"Array.h"
+
+1429168314 source:d:\2nd sem\projects\seaching_sorting\src\array.cpp
+	"iostream"
+	"Array.h"
+
+1429169210 d:\2nd sem\projects\seaching_sorting\include\array.h
+
+1429431032 source:d:\2nd sem\projects\4. searching - sorting\array - basic [ 3 sort , 2 search ]\main.cpp
+	<iostream>
+	"Array.h"
+	"stdlib.h"
+
+1429330960 d:\2nd sem\projects\4. searching - sorting\array - basic [ 3 sort , 2 search ]\include\array.h
+
+1429431032 source:d:\2nd sem\projects\4. searching - sorting\array - basic [ 3 sort , 2 search ]\src\array.cpp
+	"iostream"
+	"Array.h"
+
+1429431032 source:d:\2nd sem\projects\5. searching - sorting\array - basic [ 3 sort , 2 search ]\main.cpp
+	<iostream>
+	"Array.h"
+	"stdlib.h"
+
+1429330960 d:\2nd sem\projects\5. searching - sorting\array - basic [ 3 sort , 2 search ]\include\array.h
+
+1429431034 source:d:\jatin\2nd sem\projects\5. searching - sorting\array - basic [ 3 sort , 2 search ]\main.cpp
+	<iostream>
+	"Array.h"
+	"stdlib.h"
+
+1429330962 d:\jatin\2nd sem\projects\5. searching - sorting\array - basic [ 3 sort , 2 search ]\include\array.h
+
+1429760862 source:d:\jatin\2nd sem\projects\5. searching - sorting\array - basic [ 3 sort , 2 search ]\src\array.cpp
+	"iostream"
+	"Array.h"
+
