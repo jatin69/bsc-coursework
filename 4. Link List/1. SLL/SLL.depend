@@ -1,0 +1,105 @@
+# depslib dependency file v1.0
+1426104085 source:d:\2nd sem\projects\sll\main.cpp
+	<iostream>
+	"SLL.h"
+	"cstdlib"
+	"MyException.h"
+
+1425708288 source:d:\2nd sem\projects\sll\src\myexception.cpp
+	"MyException.h"
+	<iostream>
+
+1425708291 d:\2nd sem\projects\sll\include\myexception.h
+
+1425710234 source:d:\2nd sem\projects\sll\src\node.cpp
+	"Node.h"
+
+1425710210 d:\2nd sem\projects\sll\include\node.h
+
+1426103773 d:\2nd sem\projects\sll\include\sll.h
+	"Node.h"
+
+1426103069 source:d:\2nd sem\projects\sll\src\sll.cpp
+	"SLL.h"
+	"Node.h"
+	"MyException.h"
+	"iostream"
+
+1426104085 source:d:\2nd sem\projects\3. sll\sll\main.cpp
+	<iostream>
+	"SLL.h"
+	"cstdlib"
+	"MyException.h"
+
+1426103773 d:\2nd sem\projects\3. sll\sll\include\sll.h
+	"Node.h"
+
+1425710210 d:\2nd sem\projects\3. sll\sll\include\node.h
+
+1425708291 d:\2nd sem\projects\3. sll\sll\include\myexception.h
+
+1425708288 source:d:\2nd sem\projects\3. sll\sll\src\myexception.cpp
+	"MyException.h"
+	<iostream>
+
+1425710234 source:d:\2nd sem\projects\3. sll\sll\src\node.cpp
+	"Node.h"
+
+1426131901 source:d:\2nd sem\projects\3. sll\sll\src\sll.cpp
+	"SLL.h"
+	"Node.h"
+	"MyException.h"
+	"iostream"
+
+1426104085 source:d:\2nd sem\projects\3. link list\sll\main.cpp
+	<iostream>
+	"SLL.h"
+	"cstdlib"
+	"MyException.h"
+
+1426103773 d:\2nd sem\projects\3. link list\sll\include\sll.h
+	"Node.h"
+
+1425710210 d:\2nd sem\projects\3. link list\sll\include\node.h
+
+1425708291 d:\2nd sem\projects\3. link list\sll\include\myexception.h
+
+1425708288 source:d:\2nd sem\projects\3. link list\sll\src\myexception.cpp
+	"MyException.h"
+	<iostream>
+
+1425710234 source:d:\2nd sem\projects\3. link list\sll\src\node.cpp
+	"Node.h"
+
+1428130211 source:d:\2nd sem\projects\3. link list\sll\src\sll.cpp
+	"SLL.h"
+	"Node.h"
+	"MyException.h"
+	"iostream"
+
+1426104086 source:e:\# college\bsc hons cs\semester 2\2nd sem\projects\4. link list\1. sll\main.cpp
+	<iostream>
+	"SLL.h"
+	"cstdlib"
+	"MyException.h"
+
+1426103774 e:\# college\bsc hons cs\semester 2\2nd sem\projects\4. link list\1. sll\include\sll.h
+	"Node.h"
+
+1425710212 e:\# college\bsc hons cs\semester 2\2nd sem\projects\4. link list\1. sll\include\node.h
+
+1425708292 e:\# college\bsc hons cs\semester 2\2nd sem\projects\4. link list\1. sll\include\myexception.h
+
+1425708290 source:e:\# college\bsc hons cs\semester 2\2nd sem\projects\4. link list\1. sll\src\myexception.cpp
+	"MyException.h"
+	<iostream>
+
+1425710236 source:e:\# college\bsc hons cs\semester 2\2nd sem\projects\4. link list\1. sll\src\node.cpp
+	"Node.h"
+
+1428593616 source:e:\# college\bsc hons cs\semester 2\2nd sem\projects\4. link list\1. sll\src\sll.cpp
+	"SLL.h"
+	"Node.h"
+	"MyException.h"
+	"iostream"
+
