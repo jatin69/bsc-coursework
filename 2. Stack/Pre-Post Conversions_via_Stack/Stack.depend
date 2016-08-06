@@ -1,0 +1,195 @@
+# depslib dependency file v1.0
+1422716888 source:/home/jatin/Desktop/projects/Stack/main.cpp
+	<iostream>
+
+1422717256 source:/home/jatin/Desktop/projects/Stack/src/ConvertPostfix.cpp
+	"ConvertPostfix.h"
+	<iostream>
+	<cstring>
+	"Stack.h"
+	"MyException.h"
+
+1422717203 /home/jatin/Desktop/projects/Stack/include/ConvertPostfix.h
+
+1422716982 /home/jatin/Desktop/projects/Stack/include/Stack.h
+	"MyException.h"
+	<iostream>
+	<cstdlib>
+
+1422717053 /home/jatin/Desktop/projects/Stack/include/MyException.h
+
+1422717268 source:/home/jatin/Desktop/projects/Stack/src/ConvertPrefix.cpp
+	"ConvertPrefix.h"
+	<iostream>
+	<cstring>
+	"Stack.h"
+	"MyException.h"
+
+1422717139 /home/jatin/Desktop/projects/Stack/include/ConvertPrefix.h
+
+1422717072 source:/home/jatin/Desktop/projects/Stack/src/MyException.cpp
+	"MyException.h"
+	<iostream>
+
+1422717000 source:/home/jatin/Desktop/projects/Stack/src/Stack.cpp
+	"Stack.h"
+
+1422953729 source:/home/jatin/Documents/ds/projects/Stack/main.cpp
+	<iostream>
+	<cstring>
+	<cstdlib>
+	"Stack.h"
+	"ConvertPostfix.h"
+	"ConvertPrefix.h"
+
+1422955696 source:/home/jatin/Documents/ds/projects/Stack/src/ConvertPostfix.cpp
+	"ConvertPostfix.h"
+	<iostream>
+	<cstring>
+	"Stack.h"
+	"MyException.h"
+
+1422955523 /home/jatin/Documents/ds/projects/Stack/include/ConvertPostfix.h
+
+1422955985 /home/jatin/Documents/ds/projects/Stack/include/Stack.h
+	"MyException.h"
+	<iostream>
+	<cstdlib>
+
+1422717053 /home/jatin/Documents/ds/projects/Stack/include/MyException.h
+
+1422871858 source:/home/jatin/Documents/ds/projects/Stack/src/ConvertPrefix.cpp
+	"ConvertPrefix.h"
+	<iostream>
+	<cstring>
+	"Stack.h"
+	"MyException.h"
+
+1422871884 /home/jatin/Documents/ds/projects/Stack/include/ConvertPrefix.h
+
+1422717072 source:/home/jatin/Documents/ds/projects/Stack/src/MyException.cpp
+	"MyException.h"
+	<iostream>
+
+1422717000 source:/home/jatin/Documents/ds/projects/Stack/src/Stack.cpp
+	"Stack.h"
+
+1422955887 /home/jatin/Documents/ds/projects/Stack/include/Stack.cpp
+
+1422953729 source:d:\2nd sem\projects\stack\main.cpp
+	<iostream>
+	<cstring>
+	<cstdlib>
+	"Stack.h"
+	"ConvertPostfix.h"
+	"ConvertPrefix.h"
+
+1422955985 d:\2nd sem\projects\stack\include\stack.h
+	"MyException.h"
+	<iostream>
+	<cstdlib>
+
+1422717053 d:\2nd sem\projects\stack\include\myexception.h
+
+1422955523 d:\2nd sem\projects\stack\include\convertpostfix.h
+
+1422871884 d:\2nd sem\projects\stack\include\convertprefix.h
+
+1422955696 source:d:\2nd sem\projects\stack\src\convertpostfix.cpp
+	"ConvertPostfix.h"
+	<iostream>
+	<cstring>
+	"Stack.h"
+	"MyException.h"
+
+1422871858 source:d:\2nd sem\projects\stack\src\convertprefix.cpp
+	"ConvertPrefix.h"
+	<iostream>
+	<cstring>
+	"Stack.h"
+	"MyException.h"
+
+1422717072 source:d:\2nd sem\projects\stack\src\myexception.cpp
+	"MyException.h"
+	<iostream>
+
+1422956610 source:d:\2nd sem\projects\stack\src\stack.cpp
+	"Stack.h"
+
+1422953729 source:d:\2nd sem\projects\1. stack\pre-post conversions_via_stack\main.cpp
+	<iostream>
+	<cstring>
+	<cstdlib>
+	"Stack.h"
+	"ConvertPostfix.h"
+	"ConvertPrefix.h"
+
+1428316214 d:\2nd sem\projects\1. stack\pre-post conversions_via_stack\include\stack.h
+	"MyException.h"
+	<iostream>
+	<cstdlib>
+
+1422717053 d:\2nd sem\projects\1. stack\pre-post conversions_via_stack\include\myexception.h
+
+1422955523 d:\2nd sem\projects\1. stack\pre-post conversions_via_stack\include\convertpostfix.h
+
+1422871884 d:\2nd sem\projects\1. stack\pre-post conversions_via_stack\include\convertprefix.h
+
+1422955696 source:d:\2nd sem\projects\1. stack\pre-post conversions_via_stack\src\convertpostfix.cpp
+	"ConvertPostfix.h"
+	<iostream>
+	<cstring>
+	"Stack.h"
+	"MyException.h"
+
+1422871858 source:d:\2nd sem\projects\1. stack\pre-post conversions_via_stack\src\convertprefix.cpp
+	"ConvertPrefix.h"
+	<iostream>
+	<cstring>
+	"Stack.h"
+	"MyException.h"
+
+1422717072 source:d:\2nd sem\projects\1. stack\pre-post conversions_via_stack\src\myexception.cpp
+	"MyException.h"
+	<iostream>
+
+1422953729 source:d:\2nd sem\projects\2. stack\pre-post conversions_via_stack\main.cpp
+	<iostream>
+	<cstring>
+	<cstdlib>
+	"Stack.h"
+	"ConvertPostfix.h"
+	"ConvertPrefix.h"
+
+1428316724 d:\2nd sem\projects\2. stack\pre-post conversions_via_stack\include\stack.h
+	"MyException.h"
+	<iostream>
+	<cstdlib>
+
+1422717053 d:\2nd sem\projects\2. stack\pre-post conversions_via_stack\include\myexception.h
+
+1422955523 d:\2nd sem\projects\2. stack\pre-post conversions_via_stack\include\convertpostfix.h
+
+1428316795 d:\2nd sem\projects\2. stack\pre-post conversions_via_stack\include\convertprefix.h
+
+1422955696 source:d:\2nd sem\projects\2. stack\pre-post conversions_via_stack\src\convertpostfix.cpp
+	"ConvertPostfix.h"
+	<iostream>
+	<cstring>
+	"Stack.h"
+	"MyException.h"
+
+1422871858 source:d:\2nd sem\projects\2. stack\pre-post conversions_via_stack\src\convertprefix.cpp
+	"ConvertPrefix.h"
+	<iostream>
+	<cstring>
+	"Stack.h"
+	"MyException.h"
+
+1422717072 source:d:\2nd sem\projects\2. stack\pre-post conversions_via_stack\src\myexception.cpp
+	"MyException.h"
+	<iostream>
+
+1428316672 source:d:\2nd sem\projects\2. stack\pre-post conversions_via_stack\src\stack.cpp
+	"Stack.h"
+
