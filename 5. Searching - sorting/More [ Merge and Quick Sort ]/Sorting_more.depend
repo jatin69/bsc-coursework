@@ -1,0 +1,48 @@
+# depslib dependency file v1.0
+1429762286 source:d:\2nd sem\projects\sorting_more\main.cpp
+	<iostream>
+	"stdlib.h"
+	"MergeSort.h"
+	"QuickSort.h"
+
+1429595431 d:\2nd sem\projects\sorting_more\include\mergesort.h
+
+1429595278 source:d:\2nd sem\projects\sorting_more\src\mergesort.cpp
+	"MergeSort.h"
+
+1429761296 source:d:\2nd sem\projects\sorting_more --- quick sort is left\main.cpp
+	<iostream>
+	"MergeSort.h"
+	"QuickSort.h"
+
+1429595431 d:\2nd sem\projects\sorting_more --- quick sort is left\include\mergesort.h
+
+1429595278 source:d:\2nd sem\projects\sorting_more --- quick sort is left\src\mergesort.cpp
+	"MergeSort.h"
+
+1429761135 source:d:\2nd sem\projects\sorting_more --- quick sort is left\src\quicksort.cpp
+	"quickSort.h"
+
+1429761122 d:\2nd sem\projects\sorting_more --- quick sort is left\include\quicksort.h
+
+1429761122 d:\2nd sem\projects\sorting_more\include\quicksort.h
+
+1429761135 source:d:\2nd sem\projects\sorting_more\src\quicksort.cpp
+	"quickSort.h"
+
+1430492743 source:d:\2nd sem\projects\5. searching - sorting\sorting_more\main.cpp
+	<iostream>
+	"stdlib.h"
+	"MergeSort.h"
+	"QuickSort.h"
+
+1429595431 d:\2nd sem\projects\5. searching - sorting\sorting_more\include\mergesort.h
+
+1429761122 d:\2nd sem\projects\5. searching - sorting\sorting_more\include\quicksort.h
+
+1429595278 source:d:\2nd sem\projects\5. searching - sorting\sorting_more\src\mergesort.cpp
+	"MergeSort.h"
+
+1429761135 source:d:\2nd sem\projects\5. searching - sorting\sorting_more\src\quicksort.cpp
+	"quickSort.h"
+
