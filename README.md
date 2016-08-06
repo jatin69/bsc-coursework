@@ -1,7 +1,6 @@
 # lab-codes
 A Subject wise collection of codes made in computer lab
 ***
-<br/>
 ### [Data Structures](https://github.com/jatin69/lab-codes/tree/Data-Structures)
 ###[Operating System](https://github.com/jatin69/lab-codes/tree/Operating-System)
 ###[Networks](https://github.com/jatin69/lab-codes/tree/Networks)
@@ -13,4 +12,4 @@ A Subject wise collection of codes made in computer lab
 *Some codes are made in Ubuntu, as will be clearly visible.*
 
 ## Author
-#### `Jatin Rohilla`
+#### `Jatin Rohilla` ( [@jatin69](https://github.com/jatin69) )
