@@ -1,0 +1,130 @@
+Grammar
+
+    0 $accept: start $end
+
+    1 start: anbn DELIM
+
+    2 anbn: an bm
+
+    3 an: A
+    4   | A an
+
+    5 bm: %empty
+    6   | B bm
+
+
+Terminals, with rules where they appear
+
+$end (0) 0
+error (256)
+A (258) 3 4
+B (259) 6
+DELIM (260) 1
+
+
+Nonterminals, with rules where they appear
+
+$accept (6)
+    on left: 0
+start (7)
+    on left: 1, on right: 0
+anbn (8)
+    on left: 2, on right: 1
+an (9)
+    on left: 3 4, on right: 2 4
+bm (10)
+    on left: 5 6, on right: 2 6
+
+
+State 0
+
+    0 $accept: . start $end
+
+    A  shift, and go to state 1
+
+    start  go to state 2
+    anbn   go to state 3
+    an     go to state 4
+
+
+State 1
+
+    3 an: A .
+    4   | A . an
+
+    A  shift, and go to state 1
+
+    $default  reduce using rule 3 (an)
+
+    an  go to state 5
+
+
+State 2
+
+    0 $accept: start . $end
+
+    $end  shift, and go to state 6
+
+
+State 3
+
+    1 start: anbn . DELIM
+
+    DELIM  shift, and go to state 7
+
+
+State 4
+
+    2 anbn: an . bm
+
+    B  shift, and go to state 8
+
+    $default  reduce using rule 5 (bm)
+
+    bm  go to state 9
+
+
+State 5
+
+    4 an: A an .
+
+    $default  reduce using rule 4 (an)
+
+
+State 6
+
+    0 $accept: start $end .
+
+    $default  accept
+
+
+State 7
+
+    1 start: anbn DELIM .
+
+    $default  reduce using rule 1 (start)
+
+
+State 8
+
+    6 bm: B . bm
+
+    B  shift, and go to state 8
+
+    $default  reduce using rule 5 (bm)
+
+    bm  go to state 10
+
+
+State 9
+
+    2 anbn: an bm .
+
+    $default  reduce using rule 2 (anbn)
+
+
+State 10
+
+    6 bm: B bm .
+
+    $default  reduce using rule 6 (bm)
