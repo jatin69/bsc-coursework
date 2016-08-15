@@ -1,0 +1,30 @@
+start:
+
+; all MRR except BUN & BSA
+
+read
+STA var1
+
+read
+ADD var1
+STA sum
+write
+
+LDA var1
+
+read
+AND var1
+STA pro
+write
+
+read
+STA var2
+ISZ var2
+write
+
+HALT
+
+var1: .data 2 0
+var2: .data 2 0
+sum: .data 2 0
+pro: .data 2 0

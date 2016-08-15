@@ -1,0 +1,4 @@
+Q4 executes memory reference instructions with in-direct addressing
+now ,
+as we have implemented all other MRR in Q3 ,
+so here we focus on BUN & BSA

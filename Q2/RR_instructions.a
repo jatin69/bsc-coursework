@@ -1,0 +1,39 @@
+start:
+
+read ; read a variable and store in ac 
+store a1 ; storing on memory 
+load a1 ; loading from memory to ac
+write ; displaying the enteres value
+
+SPA ; skip if ac is POSITIVE
+CLA  ; clear content of ac
+write ; displaying the enteres value
+
+read ; read again
+SNA ; skip if ac is NEGATIVE
+CLA  ; clear content of ac
+write ; displaying the enteres value
+
+read ; read again
+SZA  ; skip if ac ZERO
+INC  ; increment content of ac
+write ; displaying the enteres value
+
+CMA  ; complement content of ac
+CME  ; complement content of E flip flop
+
+SZE ; skip if E=0
+CLE  ; clear content of E flip flop
+
+read ;read again
+CIR ;circulate right
+write ; display shifted answer
+
+read ;read again
+CIL ; circulate left
+write ; display shifted answer
+
+HLT ; halt the program
+ 
+
+a1: .data 2 0 ; variable a1
