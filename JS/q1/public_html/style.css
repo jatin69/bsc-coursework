@@ -1,0 +1,15 @@
+
+p {display: inline; color: red; visibility: hidden}
+
+#heading {
+    text-align: center;
+}
+
+#formdiv{
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px 5px 5px 5px;    
+    border-style: double;
+    border-color: turquoise;
+}

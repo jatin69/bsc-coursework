@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Q2 - Calculator</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+    <center>
+        <h1>Calculator </h1>
+        </center>  
+        <form name="calform" action="operate.jsp" method="POST">
+            <label>Operand 1 :</label>
+            <input type="number" name="opr1" />
+            <br><br>
+            <label>Operand 2 :</label>
+            <input type="number" name="opr2" />
+            <br><br>
+            <label>Operation : </label>
+            <div>
+            <input type="radio" name="operation"  value="1" checked> Add<br>
+            <input type="radio" name="operation"  value="2"> Subtract<br>
+            <input type="radio" name="operation"  value="3"> Multiply<br><br><br><br>
+            </div>
+            <button type="submit" name="submit">RUN</button>
+            
+        </form>
+
+     
+
+</body>
+</html>
