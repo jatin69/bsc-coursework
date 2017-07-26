@@ -1,12 +1,17 @@
 # lab-codes
-A Subject wise collection of codes made in computer lab
+A Subject wise collection of codes made during my graduation
 ***
-###[C++ : Introductory Course](https://github.com/jatin69/lab-codes/tree/C++)
-###[Data Structures](https://github.com/jatin69/lab-codes/tree/Data-Structures)
-###[Operating System](https://github.com/jatin69/lab-codes/tree/Operating-System)
-###[Networks](https://github.com/jatin69/lab-codes/tree/Networks)
-###[System Programming](https://github.com/jatin69/lab-codes/tree/System-Programming)
-###[Computer System Architecture](https://github.com/jatin69/lab-codes/tree/Computer-System-Architecture)
+[C++ : Introductory Course](https://github.com/jatin69/lab-codes/tree/C++)
+
+[Data Structures](https://github.com/jatin69/lab-codes/tree/Data-Structures)
+
+[Operating System](https://github.com/jatin69/lab-codes/tree/Operating-System)
+
+[Networks](https://github.com/jatin69/lab-codes/tree/Networks)
+
+[System Programming](https://github.com/jatin69/lab-codes/tree/System-Programming)
+
+[Computer System Architecture](https://github.com/jatin69/lab-codes/tree/Computer-System-Architecture)
 
 
 *** 
