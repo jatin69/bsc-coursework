@@ -1,4 +1,5 @@
-# lab-codes
+# graduation-codes
+
 Information Security - In Ubuntu
 
 ## Author
