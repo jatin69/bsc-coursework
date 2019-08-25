@@ -1,0 +1,14 @@
+in the last lex rule of negation,
+
+[^a-z0-9\b]    {  c = yytext[0];     return(c);      }
+
+1. what is the logic of returning this 'c'  ??
+2. also, this 'c' is not defined as a token in yacc file, so how is this return statement not resulting in an error
+3. after i remove these statements, the syntax error msg for unknown symbols disappears. Why and how ??
+
+possible expalnation :
+as 'c' is not defined as a token,
+it comes under 'error' category,
+so,, handled by 'error'
+and hence, the syntax error msg gets displayed
+ 

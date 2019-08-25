@@ -1,0 +1,383 @@
+Grammar
+
+    0 $accept: start $end
+
+    1 start: arithmetic_stmt SEMICOLON
+
+    2 arithmetic_stmt: identifier EQ expr
+
+    3 identifier: ID
+    4           | keyword
+
+    5 keyword: RARE
+
+    6 expr: expr PLUS expr
+    7     | expr MINUS expr
+    8     | expr MUL expr
+    9     | expr DIVIDE expr
+   10     | factor
+   11     | LBRACKET expr RBRACKET
+   12     | SIGN factor
+
+   13 SIGN: PLUS
+   14     | MINUS
+
+   15 factor: identifier
+   16       | NUMBER
+
+
+Terminals, with rules where they appear
+
+$end (0) 0
+error (256)
+ID (258) 3
+NUMBER (259) 16
+RARE (260) 5
+EQ (261) 2
+PLUS (262) 6 13
+MINUS (263) 7 14
+MUL (264) 8
+DIVIDE (265) 9
+LBRACKET (266) 11
+RBRACKET (267) 11
+SEMICOLON (268) 1
+
+
+Nonterminals, with rules where they appear
+
+$accept (14)
+    on left: 0
+start (15)
+    on left: 1, on right: 0
+arithmetic_stmt (16)
+    on left: 2, on right: 1
+identifier (17)
+    on left: 3 4, on right: 2 15
+keyword (18)
+    on left: 5, on right: 4
+expr (19)
+    on left: 6 7 8 9 10 11 12, on right: 2 6 7 8 9 11
+SIGN (20)
+    on left: 13 14, on right: 12
+factor (21)
+    on left: 15 16, on right: 10 12
+
+
+State 0
+
+    0 $accept: . start $end
+
+    ID    shift, and go to state 1
+    RARE  shift, and go to state 2
+
+    start            go to state 3
+    arithmetic_stmt  go to state 4
+    identifier       go to state 5
+    keyword          go to state 6
+
+
+State 1
+
+    3 identifier: ID .
+
+    $default  reduce using rule 3 (identifier)
+
+
+State 2
+
+    5 keyword: RARE .
+
+    $default  reduce using rule 5 (keyword)
+
+
+State 3
+
+    0 $accept: start . $end
+
+    $end  shift, and go to state 7
+
+
+State 4
+
+    1 start: arithmetic_stmt . SEMICOLON
+
+    SEMICOLON  shift, and go to state 8
+
+
+State 5
+
+    2 arithmetic_stmt: identifier . EQ expr
+
+    EQ  shift, and go to state 9
+
+
+State 6
+
+    4 identifier: keyword .
+
+    $default  reduce using rule 4 (identifier)
+
+
+State 7
+
+    0 $accept: start $end .
+
+    $default  accept
+
+
+State 8
+
+    1 start: arithmetic_stmt SEMICOLON .
+
+    $default  reduce using rule 1 (start)
+
+
+State 9
+
+    2 arithmetic_stmt: identifier EQ . expr
+
+    ID        shift, and go to state 1
+    NUMBER    shift, and go to state 10
+    RARE      shift, and go to state 2
+    PLUS      shift, and go to state 11
+    MINUS     shift, and go to state 12
+    LBRACKET  shift, and go to state 13
+
+    identifier  go to state 14
+    keyword     go to state 6
+    expr        go to state 15
+    SIGN        go to state 16
+    factor      go to state 17
+
+
+State 10
+
+   16 factor: NUMBER .
+
+    $default  reduce using rule 16 (factor)
+
+
+State 11
+
+   13 SIGN: PLUS .
+
+    $default  reduce using rule 13 (SIGN)
+
+
+State 12
+
+   14 SIGN: MINUS .
+
+    $default  reduce using rule 14 (SIGN)
+
+
+State 13
+
+   11 expr: LBRACKET . expr RBRACKET
+
+    ID        shift, and go to state 1
+    NUMBER    shift, and go to state 10
+    RARE      shift, and go to state 2
+    PLUS      shift, and go to state 11
+    MINUS     shift, and go to state 12
+    LBRACKET  shift, and go to state 13
+
+    identifier  go to state 14
+    keyword     go to state 6
+    expr        go to state 18
+    SIGN        go to state 16
+    factor      go to state 17
+
+
+State 14
+
+   15 factor: identifier .
+
+    $default  reduce using rule 15 (factor)
+
+
+State 15
+
+    2 arithmetic_stmt: identifier EQ expr .
+    6 expr: expr . PLUS expr
+    7     | expr . MINUS expr
+    8     | expr . MUL expr
+    9     | expr . DIVIDE expr
+
+    PLUS    shift, and go to state 19
+    MINUS   shift, and go to state 20
+    MUL     shift, and go to state 21
+    DIVIDE  shift, and go to state 22
+
+    $default  reduce using rule 2 (arithmetic_stmt)
+
+
+State 16
+
+   12 expr: SIGN . factor
+
+    ID      shift, and go to state 1
+    NUMBER  shift, and go to state 10
+    RARE    shift, and go to state 2
+
+    identifier  go to state 14
+    keyword     go to state 6
+    factor      go to state 23
+
+
+State 17
+
+   10 expr: factor .
+
+    $default  reduce using rule 10 (expr)
+
+
+State 18
+
+    6 expr: expr . PLUS expr
+    7     | expr . MINUS expr
+    8     | expr . MUL expr
+    9     | expr . DIVIDE expr
+   11     | LBRACKET expr . RBRACKET
+
+    PLUS      shift, and go to state 19
+    MINUS     shift, and go to state 20
+    MUL       shift, and go to state 21
+    DIVIDE    shift, and go to state 22
+    RBRACKET  shift, and go to state 24
+
+
+State 19
+
+    6 expr: expr PLUS . expr
+
+    ID        shift, and go to state 1
+    NUMBER    shift, and go to state 10
+    RARE      shift, and go to state 2
+    PLUS      shift, and go to state 11
+    MINUS     shift, and go to state 12
+    LBRACKET  shift, and go to state 13
+
+    identifier  go to state 14
+    keyword     go to state 6
+    expr        go to state 25
+    SIGN        go to state 16
+    factor      go to state 17
+
+
+State 20
+
+    7 expr: expr MINUS . expr
+
+    ID        shift, and go to state 1
+    NUMBER    shift, and go to state 10
+    RARE      shift, and go to state 2
+    PLUS      shift, and go to state 11
+    MINUS     shift, and go to state 12
+    LBRACKET  shift, and go to state 13
+
+    identifier  go to state 14
+    keyword     go to state 6
+    expr        go to state 26
+    SIGN        go to state 16
+    factor      go to state 17
+
+
+State 21
+
+    8 expr: expr MUL . expr
+
+    ID        shift, and go to state 1
+    NUMBER    shift, and go to state 10
+    RARE      shift, and go to state 2
+    PLUS      shift, and go to state 11
+    MINUS     shift, and go to state 12
+    LBRACKET  shift, and go to state 13
+
+    identifier  go to state 14
+    keyword     go to state 6
+    expr        go to state 27
+    SIGN        go to state 16
+    factor      go to state 17
+
+
+State 22
+
+    9 expr: expr DIVIDE . expr
+
+    ID        shift, and go to state 1
+    NUMBER    shift, and go to state 10
+    RARE      shift, and go to state 2
+    PLUS      shift, and go to state 11
+    MINUS     shift, and go to state 12
+    LBRACKET  shift, and go to state 13
+
+    identifier  go to state 14
+    keyword     go to state 6
+    expr        go to state 28
+    SIGN        go to state 16
+    factor      go to state 17
+
+
+State 23
+
+   12 expr: SIGN factor .
+
+    $default  reduce using rule 12 (expr)
+
+
+State 24
+
+   11 expr: LBRACKET expr RBRACKET .
+
+    $default  reduce using rule 11 (expr)
+
+
+State 25
+
+    6 expr: expr . PLUS expr
+    6     | expr PLUS expr .
+    7     | expr . MINUS expr
+    8     | expr . MUL expr
+    9     | expr . DIVIDE expr
+
+    MUL     shift, and go to state 21
+    DIVIDE  shift, and go to state 22
+
+    $default  reduce using rule 6 (expr)
+
+
+State 26
+
+    6 expr: expr . PLUS expr
+    7     | expr . MINUS expr
+    7     | expr MINUS expr .
+    8     | expr . MUL expr
+    9     | expr . DIVIDE expr
+
+    MUL     shift, and go to state 21
+    DIVIDE  shift, and go to state 22
+
+    $default  reduce using rule 7 (expr)
+
+
+State 27
+
+    6 expr: expr . PLUS expr
+    7     | expr . MINUS expr
+    8     | expr . MUL expr
+    8     | expr MUL expr .
+    9     | expr . DIVIDE expr
+
+    $default  reduce using rule 8 (expr)
+
+
+State 28
+
+    6 expr: expr . PLUS expr
+    7     | expr . MINUS expr
+    8     | expr . MUL expr
+    9     | expr . DIVIDE expr
+    9     | expr DIVIDE expr .
+
+    $default  reduce using rule 9 (expr)
