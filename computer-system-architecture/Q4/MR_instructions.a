@@ -1,0 +1,16 @@
+start:
+
+; remember to set "pc" to the starting address , here 004
+ 
+read 
+STA var 0
+BSA add 0
+write
+HALT
+
+add:
+read
+ADD var 0
+BUN 0 1
+
+var: .data 2 0

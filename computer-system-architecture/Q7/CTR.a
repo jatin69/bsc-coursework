@@ -1,0 +1,12 @@
+;Q7: read a number , store and increment & write only if 0  
+
+RR 2048 1	; read from user
+STA var 0	; store at var
+ICSZ var 0	; increment CTR & skip if 0
+RR 0001 0   	;  set halt bit
+RR 1024 1 	; write
+RR 0001 0   	;  set halt bit
+
+
+
+var: .data 2 0

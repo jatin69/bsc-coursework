@@ -1,0 +1,45 @@
+
+start:  ;to add
+	read 
+	store var1 
+	read 
+	add var1 
+	store sum ;
+	load sum  ;load not req. as content already in pc
+	write 	
+	
+
+	;to subtract
+	read 
+	store var1 
+	read 
+	subtract var1 
+	store diff ;
+	load diff  ;load not req. as content already in pc
+	write 	
+
+	;to multiply
+	read 
+	store var1 
+	read 
+	multiply var1 
+	store mul ;
+	load mul  ;load not req. as content already in pc
+	write 	
+
+	;to divide 
+	read 
+	store var1 
+	read 
+	divide var1 
+	store div
+	load div  ;load not req. as content already in pc
+	write 	
+	HLT
+
+
+sum: .data 2 0
+diff: .data 2 0
+mul: .data 2 0
+div: .data 2 0
+var1: .data 2 0

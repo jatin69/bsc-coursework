@@ -1,0 +1,63 @@
+; Q11
+; enter one number 
+; enter second number
+; find greater number 
+; add the greater no minimimum no of times
+
+RR 	2048	 1	;read a
+STA 	a	 0	;store a 
+RR 	2048	 1	;read b 
+STA 	b	 0	;store b
+
+MIN:
+LDA	b	 0	; load b to ac
+RR	512	 0	; complement ac
+RR	0032	 0	; ac=ac+1
+ADD	a	 0	; add AC to a
+RR 	0016	 0 	; skip if ac is positive
+BUN 	bMax	 0	; jump & set b as maximum
+BUN 	aMax	 0	; jump & set a as maximum
+
+multiply:
+LDA	max	0	; load max
+ADD	result	0	; add so, result=result+max
+STA	result	0	; store, so result=AC
+BUN	decrement 0	; jump to decrement , so to min--
+
+check:
+LDA	min	0	; load minimum
+RR	0004	0	; if AC==0 , skip next instruction
+BUN 	multiply 0	; jump to multiply
+LDA	result	 0	; load result
+RR	1024	 1	; display result 
+RR	0001	 0	; set halt  bit 
+
+decrement:
+LDA	min	 0	; load minimum
+ADD	minusone 0	; add -1 to min
+STA	min	 0	; again store in min
+BUN	check	 0	; jump to multiply
+	
+aMax:
+LDA	a	 0 	; load a to ac
+STA	max	 0	; max=a 
+LDA	b	 0 	; load b to ac
+STA	min	 0	; min=b 
+BUN	check	 0	; jump to multiply
+
+
+bMax:
+LDA	b	 0 	; load b to ac
+STA	max	 0	; max=b
+LDA	a	 0 	; load a to ac
+STA	min	 0	; min=a
+BUN	check	 0	; jump to multiply
+
+;RR	0001	 0	; set halt  bit 
+
+a: .data 2 0
+b: .data 2 0
+max: .data 2 0
+min: .data 2 0
+minusone: .data 2 -1
+result: .data 2 0

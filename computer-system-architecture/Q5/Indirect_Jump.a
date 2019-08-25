@@ -1,0 +1,24 @@
+; do remember to set pc to 004 before execution
+;run in  debug mode
+
+; this machine necessary for Q5 & Q6
+;  this is code for Q 10 using machine of Q5
+
+start:
+RR 2048 0  ; clear ac
+
+repeat:
+RR 2048 1	; take input
+RR 0004 0  ; Skip next instruction if AC==0
+BUN calsum 0  ; jump to calsum
+
+LDA sum 0   ; load sum onto ac
+RR 1024 1   ; display the result 
+RR 1 0   ; halt
+
+calsum:
+ADD sum 0 ; add sum
+STA sum 0  ;store the sum
+BUN repeat 0 ; jump to label repeat
+
+sum: .data 2 0

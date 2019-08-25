@@ -1,0 +1,23 @@
+Q5 says to ,
+	identify the type of instruction based on opcode ..
+
+working ::
+the opcodes 1 to 6 are assigned to memory reference instructions ,,
+
+problem arises in RR where they have common opcode i.e 7(111)
+so, we solve this by making an instructions RR which in itself identifies the type of RR & executes it
+
+we pass the format of RR instructions like 7800(Hex) as 2048(decimal)
+then ,,  the micro-instruction 'RR'  identify the type of RR on basis of this address 
+[ checks each bit & execute assigned operation (as per book ) ]
+
+now , the I/O  instructions are to be handled inside the RR only ( but no space as 12 address bits have alrady been assigned to 12 RR instructions )
+so .. we use the I bit as
+when I==0 , it is  RR instructions ( identified by address bit)
+when I==1 , it is MRI ( further , the type of MRI is identified by address bits )  
+Note :
+we modify the fetch routine necessarily ,, to  remove the handling of 'I' bit inside it 
+as 'I' bit we are using for I/O , so that can cause clashing -- serious clashing
+
+
+ 
