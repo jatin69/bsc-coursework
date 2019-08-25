@@ -1,4 +1,5 @@
 # lab-codes
+<<<<<<< HEAD:README-big.md
 A Subject wise collection of codes made during my graduation
 ***
 [C++ : Introductory Course](https://github.com/jatin69/lab-codes/tree/C++)
@@ -30,6 +31,9 @@ A Subject wise collection of codes made during my graduation
 Code::Blocks | Ubuntu | Oracle 10G | Netbeans | gProlog | CPUSim | emu8086 | Turbo C++ | 
 <br/>
 *Some codes are made in Ubuntu, as will be clearly visible.*
+=======
+Information Security - In Ubuntu
+>>>>>>> Information-Security:README.md
 
 ## Author
 #### `Jatin Rohilla` ( [@jatin69](https://github.com/jatin69) )
