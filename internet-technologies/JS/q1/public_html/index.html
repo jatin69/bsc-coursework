@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Student Registration Form</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="functions.js"></script>   
+    </head>
+    <body>
+        <div id="heading">
+            <h2>Student Registration Form</h2>
+        </div>
+        <div id="formdiv">
+            <form name="registration" action="submission.html" onsubmit="return validate()">
+
+                <label for="rollno">Roll no:</label><br>
+                <input type="text" id="rollno" name="rollno">
+                <p id="rollnoE">Roll no. should have 7 digits.</p>
+                <br><br>
+
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name">
+                <p id="nameE">Invalid name!</p>
+                <br><br>
+
+                <label for="age">Age:</label><br>
+                <input type="number" id="age" name="age">
+                <p id="ageE">Age should be between 15-25.</p>
+                <br><br>
+
+                <label for="course">Course:</label><br>
+                <select name="course" id="course">
+                    <option value="default" selected>select</option>
+                    <option value="cs">B.Sc.(H) Computer Science</option>
+                    <option value="phy">B.Sc.(H) Physics</option>
+                    <option value="maths">B.Sc.(H) Mathematics</option>
+                </select>
+                <p id="courseE">Please select a course.</p>
+                <br><br>
+
+                <label for="zip">Zip:</label><br>
+                <input type="text" id="zip" name="zip">
+                <p id="zipE">ZipCode should have 6 digits.</p>
+                <br><br>
+
+                <input type="submit" value="Submit">
+
+            </form>
+        </div>
+    </body>
+</html>

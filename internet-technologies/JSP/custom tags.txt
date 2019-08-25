@@ -1,0 +1,19 @@
+Steps to make a custom tag -
+
+Make a Tag Library Descriptor in the tlds/custom.tld -> Leave as it is
+
+Make a Tag Handler Class. Give its tld as tlds/custom.tld.  -> Leave as it is
+
+Then come back to tlds/custom.tld.
+You'll see that this new tag is already added and its name is same as Handler class name.
+Now Specify its name, Attributes & their types etc.
+
+
+Then come back to its handler class.
+Add fields, encapsulate them. Write display code by over riding doTag() function.
+
+Now in the JSP file, use the taglib directive to specify the prefix and URI(path).
+
+Use the tag using <prefix For TLD>:<tagname> attribute="<value>"
+
+Thats all
