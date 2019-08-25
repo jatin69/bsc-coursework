@@ -1,0 +1,26 @@
+# depslib dependency file v1.0
+1427194700 source:d:\2nd sem\projects\dequeue_sll\main.cpp
+	<iostream>
+	"DeQueue.h"
+	"stdlib.h"
+	"MyException.h"
+
+1427193822 d:\2nd sem\projects\dequeue_sll\include\dequeue.h
+	"Node.h"
+
+1427193502 d:\2nd sem\projects\dequeue_sll\include\node.h
+
+1427193492 d:\2nd sem\projects\dequeue_sll\include\myexception.h
+
+1427195230 source:d:\2nd sem\projects\dequeue_sll\src\dequeue.cpp
+	"DeQueue.h"
+	"iostream"
+	"MyException.h"
+
+1427193517 source:d:\2nd sem\projects\dequeue_sll\src\myexception.cpp
+	"MyException.h"
+	<iostream>
+
+1427193542 source:d:\2nd sem\projects\dequeue_sll\src\node.cpp
+	"Node.h"
+

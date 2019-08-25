@@ -1,0 +1,58 @@
+A few things about LInk list 
+
+1. excetion handling :
+		always to be thrown as	 " throw MyException("LInk list error") "
+		instead of 		" throw new MyException("LInk list error") "
+
+--------------------------------------------------------------------------------------------------------------
+---------------------------------------------
+throw new MyException("LInk list error") 
+
+catch( MyException *ob)
+{
+	ob->printerror();
+}
+----------------------------------------------
+This shouldn't be used 
+as this is throwing a pointer to the newly allocated  memory ,
+later after catching , pointer can be deleted, but , there is absolutely no way of deleting this dynamic memory ,
+resulting in memory leak ,,
+--------------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------------
+-------------------------------------
+throw MyException("LInk list error") 
+
+catch( MyException ob)
+{
+	ob.printerror();
+}
+--------------------------------------
+this should always be used , 
+although memory is allocated here staticly , but
+this way its c++'s problem to deal with it ,,
+saves us from leak..
+FURTHER ,,,
+catching can be done by reference to save some memory
+"  catch( MyException &ob) "
+both ways are suitable
+---------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------
+
+
+2. the use of IsInList() func. in delete() is USELESS
+suppose element to  be deleted is at n-1 position ,
+now IsInList()  traverses it ~ (n-1)
+now , delete traverses it  ~ (n-1)
+purely useless,
+so , it is logical to check for presence in delete func() only
+..
+like , if the whole list is traversed and still element is not found , temp becomes 0 at last 
+so , now, in loop an extra terminating condition would be required which i previously deleted because IsInList() was solving the purpose ,
+but now we are not using IsInList() , so condition is req.
+then , after loop ,,
+by checking if(temp==0)
+we can determine if "element is not present 
+
+---------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------

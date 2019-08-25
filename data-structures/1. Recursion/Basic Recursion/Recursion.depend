@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1429447275 source:d:\2nd sem\projects\recursion\main.cpp
+	<iostream>
+	"stdlib.h"
+	"Recursion.h"
+
+1429447382 source:d:\2nd sem\projects\recursion\src\recursion.cpp
+	"Recursion.h"
+
+1429447389 d:\2nd sem\projects\recursion\include\recursion.h
+
+1430497180 source:d:\2nd sem\projects\1. recursion\basic recursion\main.cpp
+	<iostream>
+	"stdlib.h"
+	"Recursion.h"
+
+1430496782 d:\2nd sem\projects\1. recursion\basic recursion\include\recursion.h
+
+1430496911 source:d:\2nd sem\projects\1. recursion\basic recursion\src\recursion.cpp
+	"Recursion.h"
+

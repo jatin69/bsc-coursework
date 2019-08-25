@@ -1,0 +1,53 @@
+# depslib dependency file v1.0
+1426603487 source:d:\2nd sem\projects\circular_sll\main.cpp
+	<iostream>
+	"Circular_SLL.h"
+	"cstdlib"
+	"MyException.h"
+
+1426313433 d:\2nd sem\projects\circular_sll\include\circular_sll.h
+	"Node.h"
+
+1426313442 d:\2nd sem\projects\circular_sll\include\node.h
+
+1426313455 d:\2nd sem\projects\circular_sll\include\myexception.h
+
+1426313451 source:d:\2nd sem\projects\circular_sll\src\myexception.cpp
+	"MyException.h"
+	<iostream>
+
+1426313447 source:d:\2nd sem\projects\circular_sll\src\node.cpp
+	"Node.h"
+
+1426602798 source:d:\2nd sem\projects\circular_sll\src\circular_sll.cpp
+	"Circular_SLL.h"
+	"Node.h"
+	"MyException.h"
+	"iostream"
+
+1426313451 source:d:\2nd sem\projects\3. link list\5. circular_sll\src\myexception.cpp
+	"MyException.h"
+	<iostream>
+
+1426313455 d:\2nd sem\projects\3. link list\5. circular_sll\include\myexception.h
+
+1426313447 source:d:\2nd sem\projects\3. link list\5. circular_sll\src\node.cpp
+	"Node.h"
+
+1426313442 d:\2nd sem\projects\3. link list\5. circular_sll\include\node.h
+
+1428694906 source:d:\2nd sem\projects\3. link list\5. circular_sll\main.cpp
+	<iostream>
+	"Circular_SLL.h"
+	"stdlib.h"
+	"MyException.h"
+
+1428694094 d:\2nd sem\projects\3. link list\5. circular_sll\include\circular_sll.h
+	"Node.h"
+
+1428694117 source:d:\2nd sem\projects\3. link list\5. circular_sll\src\circular_sll.cpp
+	"Circular_SLL.h"
+	"Node.h"
+	"MyException.h"
+	"iostream"
+

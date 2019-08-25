@@ -1,0 +1,63 @@
+# depslib dependency file v1.0
+1429337049 source:d:\2nd sem\projects\bst\main.cpp
+	<iostream>
+	"stdlib.h"
+	"BST.h"
+	"Node.h"
+
+1429337025 d:\2nd sem\projects\bst\include\bst.h
+	"Node.h"
+
+1429332609 d:\2nd sem\projects\bst\include\node.h
+
+1429336269 source:d:\2nd sem\projects\bst\src\bst.cpp
+	"BST.h"
+	"Node.h"
+	"iostream"
+
+1429332161 source:d:\2nd sem\projects\bst\src\myexception.cpp
+	"MyException.h"
+
+1429332161 d:\2nd sem\projects\bst\include\myexception.h
+
+1429331829 source:d:\2nd sem\projects\bst\src\node.cpp
+	"Node.h"
+
+1429331829 source:d:\2nd sem\projects\bst --- deleting left\src\node.cpp
+	"Node.h"
+
+1429332609 d:\2nd sem\projects\bst --- deleting left\include\node.h
+
+1430142167 source:d:\2nd sem\projects\bst --- deleting left\main.cpp
+	<iostream>
+	"stdlib.h"
+	"BST.h"
+	"BST_Node.h"
+
+1430222455 d:\2nd sem\projects\bst --- deleting left\include\bst.h
+	"BST_Node.h"
+
+1429975758 d:\2nd sem\projects\bst --- deleting left\include\bst_node.h
+
+1429975563 source:d:\2nd sem\projects\bst --- deleting left\src\bst.cpp
+	"BST.h"
+	"BST_Node.h"
+	"iostream"
+
+1429975772 source:d:\2nd sem\projects\bst --- deleting left\src\bst_node.cpp
+	"BST_Node.h"
+
+1429975212 source:d:\2nd sem\projects\bst --- deleting left\src\sll.cpp
+	"SLL.h"
+	<iostream>
+	"SLL.h"
+
+1429975790 d:\2nd sem\projects\bst --- deleting left\include\sll.h
+	"SLL_Node.h"
+
+1429975922 d:\2nd sem\projects\bst --- deleting left\include\sll_node.h
+	"BST_Node.h"
+
+1429975897 source:d:\2nd sem\projects\bst --- deleting left\src\sll_node.cpp
+	"SLL_Node.h"
+

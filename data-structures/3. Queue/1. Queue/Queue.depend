@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1423302269 source:d:\2nd sem\projects\queue\main.cpp
+	<iostream>
+	"cstdlib"
+	"Queue.h"
+
+1422960898 source:d:\2nd sem\projects\queue\src\queue.cpp
+	"iostream"
+	"Queue.h"
+
+1422960675 d:\2nd sem\projects\queue\include\queue.h
+
+1423555633 source:d:\2nd sem\projects\2. queue\queue\src\queue.cpp
+	"iostream"
+	"Queue.h"
+
+1422960675 d:\2nd sem\projects\2. queue\queue\include\queue.h
+
+1423303685 source:d:\2nd sem\projects\2. queue\queue\main.cpp
+	<iostream>
+	"cstdlib"
+	"Queue.h"
+

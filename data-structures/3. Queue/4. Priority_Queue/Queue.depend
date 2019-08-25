@@ -1,0 +1,87 @@
+# depslib dependency file v1.0
+1423892472 source:d:\2nd sem\projects\queue\main.cpp
+	<iostream>
+	"cstdlib"
+	"Queue.h"
+	"PriorityQueue.h"
+
+1423555633 source:d:\2nd sem\projects\queue\src\queue.cpp
+	"iostream"
+	"Queue.h"
+
+1423890023 d:\2nd sem\projects\queue\include\queue.h
+
+1423555633 source:d:\2nd sem\projects\2. queue\queue\src\queue.cpp
+	"iostream"
+	"Queue.h"
+
+1422960675 d:\2nd sem\projects\2. queue\queue\include\queue.h
+
+1423303685 source:d:\2nd sem\projects\2. queue\queue\main.cpp
+	<iostream>
+	"cstdlib"
+	"Queue.h"
+
+1423896058 source:d:\2nd sem\projects\queue\src\priorityqueue.cpp
+	"PriorityQueue.h"
+	"iostream"
+
+1423896950 d:\2nd sem\projects\queue\include\priorityqueue.h
+	<Queue.h>
+
+1428721714 source:d:\2nd sem\projects\2. queue\4. priority_queue _ modify main\main.cpp
+	<iostream>
+	"cstdlib"
+	"PriorityQueue.h"
+	"MyException.h"
+
+1423890023 d:\2nd sem\projects\2. queue\4. priority_queue _ modify main\include\queue.h
+
+1423896950 d:\2nd sem\projects\2. queue\4. priority_queue _ modify main\include\priorityqueue.h
+	<Queue.h>
+
+1428721764 source:d:\2nd sem\projects\2. queue\4. priority_queue _ modify main\src\priorityqueue.cpp
+	"iostream"
+	"PriorityQueue.h"
+	"MyException.h"
+
+1428721565 source:d:\2nd sem\projects\2. queue\4. priority_queue _ modify main\src\queue.cpp
+	"iostream"
+	"MyException.h"
+	"Queue.h"
+
+1428721435 d:\2nd sem\projects\2. queue\4. priority_queue _ modify main\include\myexception.h
+
+1428721435 source:d:\2nd sem\projects\2. queue\4. priority_queue _ modify main\src\myexception.cpp
+	<iostream>
+	<cstring>
+	"MyException.h"
+
+1428722207 source:d:\2nd sem\projects\2. queue\4. priority_queue\main.cpp
+	<iostream>
+	"cstdlib"
+	"PriorityQueue.h"
+	"MyException.h"
+
+1423896950 d:\2nd sem\projects\2. queue\4. priority_queue\include\priorityqueue.h
+	<Queue.h>
+
+1423890023 d:\2nd sem\projects\2. queue\4. priority_queue\include\queue.h
+
+1428721435 d:\2nd sem\projects\2. queue\4. priority_queue\include\myexception.h
+
+1428721435 source:d:\2nd sem\projects\2. queue\4. priority_queue\src\myexception.cpp
+	<iostream>
+	<cstring>
+	"MyException.h"
+
+1428721565 source:d:\2nd sem\projects\2. queue\4. priority_queue\src\queue.cpp
+	"iostream"
+	"MyException.h"
+	"Queue.h"
+
+1428729808 source:d:\2nd sem\projects\2. queue\4. priority_queue\src\priorityqueue.cpp
+	"iostream"
+	"PriorityQueue.h"
+	"MyException.h"
+
