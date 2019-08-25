@@ -2,6 +2,7 @@
 
 A Subject wise collection of codes made during my graduation.
 
+- Algorithms
 - Artificial Intelligence
 - C++ : Introductory Course
 - Computer Graphics
