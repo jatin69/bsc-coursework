@@ -1,0 +1,179 @@
+go.                                                                              
+      1    1  Call: go ? 
+      2    2  Call: nl ? 
+
+      2    2  Exit: nl ? 
+      3    2  Call: write('*** TREE TRAVERSALS - IN-Order, PRE-Order, POST-Order ***') ? 
+*** TREE TRAVERSALS - IN-Order, PRE-Order, POST-Order ***
+      3    2  Exit: write('*** TREE TRAVERSALS - IN-Order, PRE-Order, POST-Order ***') ? 
+      4    2  Call: nl ? 
+
+      4    2  Exit: nl ? 
+      5    2  Call: nl ? 
+
+      5    2  Exit: nl ? 
+      6    2  Call: write('Enter the Tree : ') ? 
+Enter the Tree : 
+      6    2  Exit: write('Enter the Tree : ') ? 
+      7    2  Call: read(_189) ? 
+
+tr(tr(tr(nil,48,tr(nil,49,nil)),50,nil),68,tr(tr(nil,75,nil),77,tr(nil,79,nil))).
+      7    2  Exit: read(tr(tr(tr(nil,48,tr(nil,49,nil)),50,nil),68,tr(tr(nil,75,nil),77,tr(nil,79,nil)))) ? 
+      8    2  Call: nl ? 
+
+      8    2  Exit: nl ? 
+      9    2  Call: nl ? 
+
+      9    2  Exit: nl ? 
+     10    2  Call: write('For the Tree   : ') ? 
+For the Tree   : 
+     10    2  Exit: write('For the Tree   : ') ? 
+     11    2  Call: write(tr(tr(tr(nil,48,tr(nil,49,nil)),50,nil),68,tr(tr(nil,75,nil),77,tr(nil,79,nil)))) ? 
+tr(tr(tr(nil,48,tr(nil,49,nil)),50,nil),68,tr(tr(nil,75,nil),77,tr(nil,79,nil)))
+     11    2  Exit: write(tr(tr(tr(nil,48,tr(nil,49,nil)),50,nil),68,tr(tr(nil,75,nil),77,tr(nil,79,nil)))) ? 
+     12    2  Call: nl ? 
+
+     12    2  Exit: nl ? 
+     13    2  Call: nl ? 
+
+     13    2  Exit: nl ? 
+     14    2  Call: inorder(tr(tr(tr(nil,48,tr(nil,49,nil)),50,nil),68,tr(tr(nil,75,nil),77,tr(nil,79,nil))),_378) ? 
+     15    3  Call: inorder(tr(tr(nil,48,tr(nil,49,nil)),50,nil),_402) ? 
+     16    4  Call: inorder(tr(nil,48,tr(nil,49,nil)),_426) ? 
+     17    5  Call: inorder(nil,_450) ? 
+     17    5  Exit: inorder(nil,[]) ? 
+     18    5  Call: inorder(tr(nil,49,nil),_475) ? 
+     18    5  Exit: inorder(tr(nil,49,nil),[49]) ? 
+     19    5  Call: append([],[48],_505) ? 
+     19    5  Exit: append([],[48],[48]) ? 
+     20    5  Call: append([48],[49],_531) ? 
+     20    5  Exit: append([48],[49],[48,49]) ? 
+     16    4  Exit: inorder(tr(nil,48,tr(nil,49,nil)),[48,49]) ? 
+     21    4  Call: inorder(nil,_559) ? 
+     21    4  Exit: inorder(nil,[]) ? 
+     22    4  Call: append([48,49],[50],_587) ? 
+     22    4  Exit: append([48,49],[50],[48,49,50]) ? 
+     23    4  Call: append([48,49,50],[],_617) ? 
+     23    4  Exit: append([48,49,50],[],[48,49,50]) ? 
+     15    3  Exit: inorder(tr(tr(nil,48,tr(nil,49,nil)),50,nil),[48,49,50]) ? 
+     24    3  Call: inorder(tr(tr(nil,75,nil),77,tr(nil,79,nil)),_649) ? 
+     25    4  Call: inorder(tr(nil,75,nil),_673) ? 
+     25    4  Exit: inorder(tr(nil,75,nil),[75]) ? 
+     26    4  Call: inorder(tr(nil,79,nil),_700) ? 
+     26    4  Exit: inorder(tr(nil,79,nil),[79]) ? 
+     27    4  Call: append([75],[77],_730) ? 
+     27    4  Exit: append([75],[77],[75,77]) ? 
+     28    4  Call: append([75,77],[79],_758) ? 
+     28    4  Exit: append([75,77],[79],[75,77,79]) ? 
+     24    3  Exit: inorder(tr(tr(nil,75,nil),77,tr(nil,79,nil)),[75,77,79]) ? 
+     29    3  Call: append([48,49,50],[68],_791) ? 
+     29    3  Exit: append([48,49,50],[68],[48,49,50,68]) ? 
+     30    3  Call: append([48,49,50,68],[75,77,79],_823) ? 
+     30    3  Exit: append([48,49,50,68],[75,77,79],[48,49,50,68,75,77,79]) ? 
+     14    2  Exit: inorder(tr(tr(tr(nil,48,tr(nil,49,nil)),50,nil),68,tr(tr(nil,75,nil),77,tr(nil,79,nil))),[48,49,50,68,75,77,79]) ? 
+     31    2  Call: write('The Inorder traversal is    : ') ? 
+The Inorder traversal is    : 
+     31    2  Exit: write('The Inorder traversal is    : ') ? 
+     32    2  Call: write([48,49,50,68,75,77,79]) ? 
+[48,49,50,68,75,77,79]
+     32    2  Exit: write([48,49,50,68,75,77,79]) ? 
+     33    2  Call: nl ? 
+
+     33    2  Exit: nl ? 
+     34    2  Call: preorder(tr(tr(tr(nil,48,tr(nil,49,nil)),50,nil),68,tr(tr(nil,75,nil),77,tr(nil,79,nil))),_927) ? 
+     35    3  Call: preorder(tr(tr(nil,48,tr(nil,49,nil)),50,nil),_951) ? 
+     36    4  Call: preorder(tr(nil,48,tr(nil,49,nil)),_975) ? 
+     37    5  Call: preorder(nil,_999) ? 
+     37    5  Exit: preorder(nil,[]) ? 
+     38    5  Call: preorder(tr(nil,49,nil),_1024) ? 
+     38    5  Exit: preorder(tr(nil,49,nil),[49]) ? 
+     39    5  Call: append([48],[],_1054) ? 
+     39    5  Exit: append([48],[],[48]) ? 
+     40    5  Call: append([48],[49],_1082) ? 
+     40    5  Exit: append([48],[49],[48,49]) ? 
+     36    4  Exit: preorder(tr(nil,48,tr(nil,49,nil)),[48,49]) ? 
+     41    4  Call: preorder(nil,_1110) ? 
+     41    4  Exit: preorder(nil,[]) ? 
+     42    4  Call: append([50],[48,49],_1138) ? 
+     42    4  Exit: append([50],[48,49],[50,48,49]) ? 
+     43    4  Call: append([50,48,49],[],_1166) ? 
+     43    4  Exit: append([50,48,49],[],[50,48,49]) ? 
+     35    3  Exit: preorder(tr(tr(nil,48,tr(nil,49,nil)),50,nil),[50,48,49]) ? 
+     44    3  Call: preorder(tr(tr(nil,75,nil),77,tr(nil,79,nil)),_1198) ? 
+     45    4  Call: preorder(tr(nil,75,nil),_1222) ? 
+     45    4  Exit: preorder(tr(nil,75,nil),[75]) ? 
+     46    4  Call: preorder(tr(nil,79,nil),_1249) ? 
+     46    4  Exit: preorder(tr(nil,79,nil),[79]) ? 
+     47    4  Call: append([77],[75],_1279) ? 
+     47    4  Exit: append([77],[75],[77,75]) ? 
+     48    4  Call: append([77,75],[79],_1307) ? 
+     48    4  Exit: append([77,75],[79],[77,75,79]) ? 
+     44    3  Exit: preorder(tr(tr(nil,75,nil),77,tr(nil,79,nil)),[77,75,79]) ? 
+     49    3  Call: append([68],[50,48,49],_1340) ? 
+     49    3  Exit: append([68],[50,48,49],[68,50,48,49]) ? 
+     50    3  Call: append([68,50,48,49],[77,75,79],_1368) ? 
+     50    3  Exit: append([68,50,48,49],[77,75,79],[68,50,48,49,77,75,79]) ? 
+     34    2  Exit: preorder(tr(tr(tr(nil,48,tr(nil,49,nil)),50,nil),68,tr(tr(nil,75,nil),77,tr(nil,79,nil))),[68,50,48,49,77,75,79]) ? 
+     51    2  Call: write('The Pre-order traversal is  : ') ? 
+The Pre-order traversal is  : 
+     51    2  Exit: write('The Pre-order traversal is  : ') ? 
+     52    2  Call: write([68,50,48,49,77,75,79]) ? 
+[68,50,48,49,77,75,79]
+     52    2  Exit: write([68,50,48,49,77,75,79]) ? 
+     53    2  Call: nl ? 
+
+     53    2  Exit: nl ? 
+     54    2  Call: postorder(tr(tr(tr(nil,48,tr(nil,49,nil)),50,nil),68,tr(tr(nil,75,nil),77,tr(nil,79,nil))),_1472) ? 
+     55    3  Call: postorder(tr(tr(nil,48,tr(nil,49,nil)),50,nil),_1496) ? 
+     56    4  Call: postorder(tr(nil,48,tr(nil,49,nil)),_1520) ? 
+     57    5  Call: postorder(nil,_1544) ? 
+     57    5  Exit: postorder(nil,[]) ? 
+     58    5  Call: postorder(tr(nil,49,nil),_1569) ? 
+     58    5  Exit: postorder(tr(nil,49,nil),[49]) ? 
+     59    5  Call: append([],[49],_1597) ? 
+     59    5  Exit: append([],[49],[49]) ? 
+     60    5  Call: append([49],[48],_1625) ? 
+     60    5  Exit: append([49],[48],[49,48]) ? 
+     56    4  Exit: postorder(tr(nil,48,tr(nil,49,nil)),[49,48]) ? 
+     61    4  Call: postorder(nil,_1653) ? 
+     61    4  Exit: postorder(nil,[]) ? 
+     62    4  Call: append([49,48],[],_1679) ? 
+     62    4  Exit: append([49,48],[],[49,48]) ? 
+     63    4  Call: append([49,48],[50],_1711) ? 
+     63    4  Exit: append([49,48],[50],[49,48,50]) ? 
+     55    3  Exit: postorder(tr(tr(nil,48,tr(nil,49,nil)),50,nil),[49,48,50]) ? 
+     64    3  Call: postorder(tr(tr(nil,75,nil),77,tr(nil,79,nil)),_1741) ? 
+     65    4  Call: postorder(tr(nil,75,nil),_1765) ? 
+     65    4  Exit: postorder(tr(nil,75,nil),[75]) ? 
+     66    4  Call: postorder(tr(nil,79,nil),_1792) ? 
+     66    4  Exit: postorder(tr(nil,79,nil),[79]) ? 
+     67    4  Call: append([75],[79],_1820) ? 
+     67    4  Exit: append([75],[79],[75,79]) ? 
+     68    4  Call: append([75,79],[77],_1850) ? 
+     68    4  Exit: append([75,79],[77],[75,79,77]) ? 
+     64    3  Exit: postorder(tr(tr(nil,75,nil),77,tr(nil,79,nil)),[75,79,77]) ? 
+     69    3  Call: append([49,48,50],[75,79,77],_1881) ? 
+     69    3  Exit: append([49,48,50],[75,79,77],[49,48,50,75,79,77]) ? 
+     70    3  Call: append([49,48,50,75,79,77],[68],_1915) ? 
+     70    3  Exit: append([49,48,50,75,79,77],[68],[49,48,50,75,79,77,68]) ? 
+     54    2  Exit: postorder(tr(tr(tr(nil,48,tr(nil,49,nil)),50,nil),68,tr(tr(nil,75,nil),77,tr(nil,79,nil))),[49,48,50,75,79,77,68]) ? 
+     71    2  Call: write('The Post-order traversal is : ') ? 
+The Post-order traversal is : 
+     71    2  Exit: write('The Post-order traversal is : ') ? 
+     72    2  Call: write([49,48,50,75,79,77,68]) ? 
+[49,48,50,75,79,77,68]
+     72    2  Exit: write([49,48,50,75,79,77,68]) ? 
+     73    2  Call: nl ? 
+
+     73    2  Exit: nl ? 
+      1    1  Exit: go ? 
+
+(12 ms) yes
+{trace}
+| ?- 
+
+
+
+
+
+

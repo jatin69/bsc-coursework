@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1439182747 source:d:\3rd sem\algo_analysis\sort_advance\main.cpp
+	<iostream>
+	"stdlib.h"
+	"time.h"
+
+1439183109 source:d:\3rd sem\algo_analysis\sort_advance - merge , quick , heap\main.cpp
+	<iostream>
+	"stdlib.h"
+	"time.h"
+

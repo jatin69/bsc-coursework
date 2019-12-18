@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1442558068 source:d:\3rd sem\algo_lab\rod_cut\main.cpp
+	<iostream>
+	<limits.h>
+

@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1438583432 source:d:\3rd sem\algo_analysis\sort_analysis\main.cpp
+	<iostream>
+	"stdlib.h"
+	"time.h"
+
+1438584684 source:d:\3rd sem\algo_analysis\sort_analysis - bubble , selection , insertion\main.cpp
+	<iostream>
+	"stdlib.h"
+	"time.h"
+

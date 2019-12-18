@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1446181667 source:d:\3rd sem\algo_lab\0. dynamic programming\lcs\main.cpp
+	<iostream>
+	<limits.h>
+	<cstring>
+
+1446184223 source:d:\3rd sem\algo_lab\0. dynamic programming\2. lcs\main.cpp
+	<iostream>
+	<limits.h>
+	<cstring>
+

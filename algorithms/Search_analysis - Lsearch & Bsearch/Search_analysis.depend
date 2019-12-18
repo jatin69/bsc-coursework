@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1437977149 source:d:\3rd sem\algo_analysis\search_analysis\main.cpp
+	<iostream>
+	"cstdlib"
+

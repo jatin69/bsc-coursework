@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1440400130 source:d:\3rd sem\algo_lab\priority_queue\main.cpp
+	<iostream>
+	"priority_queue.h"
+	"cstdlib"
+
+1440400076 source:d:\3rd sem\algo_lab\priority_queue\src\priority_queue.cpp
+	"priority_queue.h"
+	"iostream"
+	"stdlib.h"
+
+1440399982 d:\3rd sem\algo_lab\priority_queue\include\priority_queue.h
+

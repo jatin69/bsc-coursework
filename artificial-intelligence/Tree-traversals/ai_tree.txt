@@ -1,0 +1,4 @@
+
+ai_tree is -- 
+
+tr(tr(tr(nil,48,tr(nil,49,nil)),50,nil),68,tr(tr(nil,75,nil),77,tr(nil,79,nil)))

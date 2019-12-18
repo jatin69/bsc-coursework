@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1441005377 source:d:\3rd sem\algo_lab\sort_linear\main.cpp
+	<iostream>
+	"time.h"
+	"stdlib.h"
+

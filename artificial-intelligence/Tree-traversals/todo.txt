@@ -1,0 +1,31 @@
+all 3 traversal of tree
+done
+
+make file
+
+title page - done
+certificates -done
+acknowledgement -done
+
+introduction/ description of the assigned problem
+
+initial state
+
+goal state
+
+state space / problem space description
+
+prolog code
+
+dry run
+
+bibliography
+
+tr(tr( nil, 20, tr( tr(nil,22,nil) ,23, tr(nil,24,nil))),27,tr(tr(nil,32,nil),33,tr(tr(nil,39,nil),40,nil)))
+
+
+ai_tree is -- 
+
+tr(tr(tr(nil,48,tr(nil,49,nil)),50,nil),68,tr(tr(nil,75,nil),77,tr(nil,79,nil)))
+
+

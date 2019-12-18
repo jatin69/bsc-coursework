@@ -1,0 +1,21 @@
+| ?- consult('tree.pl').                                                              
+compiling /home/jatin/Documents/AI/project/tree.pl for byte code...
+/home/jatin/Documents/AI/project/tree.pl compiled, 26 lines read - 4936 bytes written, 4 ms
+
+yes
+| ?- go.                                                                              
+
+*** TREE TRAVERSALS - IN-Order, PRE-Order, POST-Order ***
+
+Enter the Tree : tr(tr(tr(nil,48,tr(nil,49,nil)),50,nil),68,tr(tr(nil,75,nil),77,tr(nil,79,nil))).
+
+
+For the Tree   : tr(tr(tr(nil,48,tr(nil,49,nil)),50,nil),68,tr(tr(nil,75,nil),77,tr(nil,79,nil)))
+
+The Inorder traversal is    : [48,49,50,68,75,77,79]
+The Pre-order traversal is  : [68,50,48,49,77,75,79]
+The Post-order traversal is : [49,48,50,75,79,77,68]
+
+yes
+| ?- 
+
