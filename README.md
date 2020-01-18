@@ -1,4 +1,6 @@
-# graduation-codes
+# bsc-coursework
+
+Subject courseworks from my graduation degree.
 
 A Subject wise collection of codes made during my graduation.
 
@@ -15,3 +17,7 @@ A Subject wise collection of codes made during my graduation.
 - Networks
 - Operating System
 - System Programming
+
+## Author
+
+[Jatin Rohilla](https://github.com/jatin69/)  
